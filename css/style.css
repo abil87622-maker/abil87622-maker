@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #0b2a5b;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.isi {
+  width: 88%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.topbar {
+  background-color: #ffffff;
+  border-bottom: 5px solid #0b2a5b;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topbar-isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0b2a5b;
+  padding: 2px 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #0b2a5b;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 4px 8px;
+}
+
+nav a:hover {
+  background-color: #0b2a5b;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 70px 0 80px 0;
+}
+
+.hero-isi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-teks {
+  flex: 1;
+}
+
+.label {
+  display: inline-block;
+  border: 2px solid #0b2a5b;
+  padding: 2px 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0 0 18px 0;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.05;
+  margin: 0 0 18px 0;
+  text-transform: uppercase;
+}
+
+.sub {
+  font-size: 18px;
+  border-left: 6px solid #0b2a5b;
+  padding-left: 16px;
+  margin: 0 0 22px 0;
+}
+
+.tag-baris {
+  margin: 0 0 28px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #0b2a5b;
+  color: #ffffff;
+  padding: 4px 14px;
+  margin: 0 8px 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tombol {
+  display: inline-block;
+  background-color: #0b2a5b;
+  color: #ffffff;
+  border: 3px solid #0b2a5b;
+  padding: 12px 32px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 6px 6px 0 #ffffff, 6px 6px 0 3px #0b2a5b;
+}
+
+.tombol:hover {
+  background-color: #ffffff;
+  color: #0b2a5b;
+}
+
+.hero-foto {
+  width: 340px;
+  flex-shrink: 0;
+  padding: 24px;
+  background-image: radial-gradient(#0b2a5b 2px, transparent 2px);
+  background-size: 20px 20px;
+}
+
+.hero-foto img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center top;
+  border: 6px solid #0b2a5b;
+  background-color: #ffffff;
+  box-shadow: 16px 16px 0 #0b2a5b;
+}
+
+.pita {
+  background-color: #0b2a5b;
+  color: #ffffff;
+  padding: 12px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.pita p {
+  margin: 0;
+}
+
+.blok {
+  padding: 70px 0;
+}
+
+.biru {
+  background-color: #0b2a5b;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 34px;
+  margin: 0 0 28px 0;
+  text-transform: uppercase;
+}
+
+.no {
+  display: inline-block;
+  font-size: 18px;
+  border: 3px solid #0b2a5b;
+  padding: 0 10px;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+.biru .no {
+  border-color: #ffffff;
+}
+
+.dua-kolom {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.dua-kolom > * {
+  flex: 1;
+}
+
+.kutipan {
+  border: 3px solid #0b2a5b;
+  padding: 26px;
+  font-size: 18px;
+  box-shadow: 10px 10px 0 #0b2a5b;
+}
+
+.kutipan p {
+  margin: 0;
+}
+
+.garis-waktu {
+  border-left: 5px solid #ffffff;
+  padding-left: 30px;
+  margin-left: 8px;
+}
+
+.langkah {
+  position: relative;
+  border: 3px solid #ffffff;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.langkah::before {
+  content: "";
+  position: absolute;
+  left: -46px;
+  top: 24px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border: 4px solid #0b2a5b;
+  outline: 3px solid #ffffff;
+}
+
+.tahun {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0b2a5b;
+  font-weight: bold;
+  padding: 0 12px;
+  margin: 0 0 6px 0;
+}
+
+.uraian {
+  margin: 0;
+  font-size: 18px;
+}
+
+.kotak-baris {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.kotak {
+  flex: 1 1 200px;
+  border: 4px solid #0b2a5b;
+  padding: 24px 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  box-shadow: 8px 8px 0 #0b2a5b;
+}
+
+.kotak p {
+  margin: 0;
+}
+
+.kotak .ikon {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.kotak:hover {
+  background-color: #0b2a5b;
+  color: #ffffff;
+}
+
+.ajakan {
+  font-size: 18px;
+  border-left: 6px solid #ffffff;
+  padding-left: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  color: #0b2a5b;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  outline: 4px solid #ffffff;
+  outline-offset: 3px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 34px;
+  background-color: #0b2a5b;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #0b2a5b;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: 5px solid #0b2a5b;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+footer p {
+  margin: 0;
+}
+
+.hasil {
+  border: 2px solid #0b2a5b;
+  padding: 16px;
+  margin-top: 20px;
+}
+
